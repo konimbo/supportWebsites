@@ -1,14 +1,17 @@
 
 body {
-    background-image: url("https://konimboimages.s3.amazonaws.com/system/photos/246816/original/be189c8ce416df039c40c1e6b9908f79.jpg?1523882893");
+    background-image:url("background.jpg");
     background-position: center;
     width: 960px;
-height: 400px;
- margin: auto;
-font-family: Helvetica;
+    height: auto;
+    margin: auto;
+    font-family: Helvetica;
    color: grey;
-background-size: 960px ;
- background-repeat: no-repeat;
+   background-size: 960px ;
+   background-repeat: no-repeat;
+   direction: rtl;
+   padding: 0px 40px;
+   box-sizing: border-box;
 
 }
 
@@ -17,44 +20,33 @@ background-size: 960px ;
 h1, h2 {
     text-align: center;
 }
-span {
-    position: relative;
-    width: 15px;
-    top: -228px;
-    left: 531px;
+p {
     color: blue;
-    font-family: Helvetica;
-    border: solid;
-    background: #f2f2f2
-;
-    border-color: black;
+    border: 3px solid black;
     border-radius: 32px;
+    background: #f2f2f2;
     padding: 15px;
-    text-decoration: none;
-font-weight: bolder;
+    font-weight: bolder;
+    margin-top: 25px;
+    text-align: right;
+    display: inline-block;
 }
 
 h3 {
-    left: 70px;
-    position: relative;
 text-decoration: underline;
-top: 36px;
 color: #cc00ff;
+text-align: left;
 }
 
 img {
-    top: 94px;
-    right: 93px;
-    position: relative;
+    display: block;
+    margin-right: auto;
+    
 }
 
 
 a {
-   
-    width: 15px;
-    bottom: 293px;
-    left: 703px;
-color: grey;
-    position: relative;
- 
+   display: block;
+   color: grey;
+
 }

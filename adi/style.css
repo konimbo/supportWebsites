@@ -1,14 +1,14 @@
-body {
-    background-image:url("3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 
-}
-html {
-    width: 960px;
-    height: 1000px;
-     margin-left: auto;
-     margin-right: auto;
+.wrapper {
+	width:960px;
+	min-height: 700px;
+	height:auto;
+	margin: 0 auto;
+	background-image:url("3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	padding: 10px;
 }
 h1,h2{
 	text-align: center;
@@ -23,31 +23,27 @@ h3{
 }
 .girl{
 	width: 300px;
-	height: 500px;
-  
+	height: auto;
 	float: left;
 }
 
 .ylink{
 	font-size: 15px;
-	margin-left: 750px;
 	text-decoration: underline;
 	color: #566573;
+	text-align: right;
+	display: block;
 }
 .klink{
-    display: block;
-    width: auto;
-  	font-size: 20px;
-    height: 30px;
-    line-height: 30px;
-  	color: blue;
-  	font-weight: bold;
-  	border-radius: 25px;
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+	border-radius: 25px;
     border: 4px solid black;
-    padding: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    text-align: right;
     float: right;
+    margin-top: 10px;
 }
 
-div{
-	float: left;
-}
