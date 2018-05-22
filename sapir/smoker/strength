@@ -1,0 +1,6 @@
+body {
+	width: 2000px
+	height:609px;
+	opacity:20%;
+	background-image: url("background.png");
+}

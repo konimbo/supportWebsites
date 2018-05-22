@@ -1,0 +1,52 @@
+
+body {
+    background-image:url("background.jpg");
+    background-position: center;
+    width: 960px;
+    height: auto;
+    margin: auto;
+    font-family: Helvetica;
+   color: grey;
+   background-size: 960px ;
+   background-repeat: no-repeat;
+   direction: rtl;
+   padding: 0px 40px;
+   box-sizing: border-box;
+
+}
+
+
+
+h1, h2 {
+    text-align: center;
+}
+p {
+    color: blue;
+    border: 3px solid black;
+    border-radius: 32px;
+    background: #f2f2f2;
+    padding: 15px;
+    font-weight: bolder;
+    margin-top: 25px;
+    text-align: right;
+    display: inline-block;
+}
+
+h3 {
+text-decoration: underline;
+color: #cc00ff;
+text-align: left;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    
+}
+
+
+a {
+   display: block;
+   color: grey;
+
+}

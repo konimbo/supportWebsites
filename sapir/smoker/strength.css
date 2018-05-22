@@ -1,0 +1,148 @@
+body {
+	direction: rtl;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	font-family: Heebo;
+	background-color: black;
+}
+.xxx{
+	margin: 2% auto;
+    display: block;
+}
+
+.frames{
+	width: 100%;
+	height: auto;
+    margin: 3% 19%;
+}
+
+
+h2 {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff; 
+    text-align: center;
+    margin: 2% auto;
+}
+
+
+
+img.box {
+    margin: 22% 36%;
+}
+img.sales {
+     margin: 17% 39%;
+}
+img.delivery {
+        margin: 20% 39%;
+}
+img.change {
+   margin: 18% 42%;
+}
+img.medaliya {
+    margin: 19% 41%;
+}
+
+p{
+width: 173px;
+height: 163px;
+color: #b9b9b9;
+font-size: 17px;
+font-weight: 400;
+float: left;
+text-align: center;
+margin: 6% 15%;
+}
+
+.box_text p {
+    margin: 21% 15%;
+}
+
+.box_text  h3 {
+    margin: 78% 1% 0 10%;
+}
+
+/*
+p.medaliya_text {
+    margin: 0px 75px 71px 426px;
+}
+p.change_text {
+    margin: 0px 71px 75px 0px;
+}
+p.delivery_text {
+    margin: 0px 71px 75px 0px;
+}
+p.sales_text {
+    margin: 0px 71px 75px 0px;
+}
+p.box_text {
+    margin: 0px 71px 75px 0px;
+}
+*/
+
+
+#warpper{
+width: 100%;
+height: auto;
+min-height: 960px;
+box-sizing: border-box;
+font-family: helvetica;
+
+}
+
+ .frame1,.frame2, .frame3, .frame4, .frame5{
+    background-image: url(frame.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 13%;
+    height: auto;
+    margin: auto;
+    float: right;
+}
+
+.frame1:hover, .frame2:hover, .frame3:hover, .frame4:hover, .frame5:hover  {
+    background-image: url(hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 13%;
+    height: auto;
+    margin: auto;
+    float: right;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin: 10% 1% 5% 10%;
+}
+
+.icon_box{
+	background-image: url(frame.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 100%;
+    height: auto;
+    min-height: 146px;
+    margin: auto;
+    float: right;
+}
+
+/*
+.frame1{
+	width: 13%;
+    height: auto;
+    margin: auto;
+    float: right;
+}
+
+.box_text h3{
+
+}
+*/
