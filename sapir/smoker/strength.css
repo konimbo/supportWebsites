@@ -4,18 +4,23 @@ body {
 	background-repeat: no-repeat;
 	font-family: Heebo;
 	background-color: black;
+	margin: 0px;
 }
+
+#warpper{
+width: 100%;
+height: auto;
+min-height: 960px;
+box-sizing: border-box;
+font-family: helvetica;
+overflow: hidden;
+
+}
+
 .xxx{
-	margin: 2% auto;
+	margin: 70px auto 0px;
     display: block;
 }
-
-.frames{
-	width: 100%;
-	height: auto;
-    margin: 3% 19%;
-}
-
 
 h2 {
     width: 100%;
@@ -26,86 +31,112 @@ h2 {
     text-transform: uppercase;
     color: #ffffff; 
     text-align: center;
-    margin: 2% auto;
+    margin: 31px auto 49px;
+}
+
+.frames{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    min-height: 350px;
+    margin: auto;
 }
 
 
 
 img.box {
-    margin: 22% 36%;
+   width: 62px;
+   height: 42px;
+   position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 img.sales {
-     margin: 17% 39%;
+   width: 49px;
+   height: 55px;
+   position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
+
 img.delivery {
-        margin: 20% 39%;
+   width: 59px;
+   height: 39px;
+   position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 img.change {
-   margin: 18% 42%;
-}
-img.medaliya {
-    margin: 19% 41%;
+  width: 41px;
+   height: 54px;
+   position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;}
+img.award {
+   width: 47px;
+   height: 50px;
+   position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;}
 }
 
 p{
 width: 173px;
 height: 163px;
-color: #b9b9b9;
+color:#a7a8a8;
 font-size: 17px;
 font-weight: 400;
 float: left;
 text-align: center;
-margin: 6% 15%;
-}
-
-.box_text p {
-    margin: 21% 15%;
-}
-
-.box_text  h3 {
-    margin: 78% 1% 0 10%;
-}
-
-/*
-p.medaliya_text {
-    margin: 0px 75px 71px 426px;
-}
-p.change_text {
-    margin: 0px 71px 75px 0px;
-}
-p.delivery_text {
-    margin: 0px 71px 75px 0px;
-}
-p.sales_text {
-    margin: 0px 71px 75px 0px;
-}
-p.box_text {
-    margin: 0px 71px 75px 0px;
-}
-*/
-
-
-#warpper{
-width: 100%;
-height: auto;
-min-height: 960px;
-box-sizing: border-box;
-font-family: helvetica;
 
 }
 
- .frame1,.frame2, .frame3, .frame4, .frame5{
+
+ .box_text, .sales_text, .delivery_text , .change_text, .award_text{
+    position: relative;
+    top: 161px;
+    color:#a7a8a8;
+    }
+
+.frame.box h3{
+	height: 46px;
+}
+
+
+
+
+p{
+text-align: center;
+}
+
+
+.frame.box,.frame.sales, .frame.delivery, .frame.change{
+	margin: 0px auto 42px 105px;
+}
+
+.frame.award{
+	margin: 0px auto 42px   ;
+
+}
+
+
+ .frame,.frame2, .frame3, .frame4, .frame5{
     background-image: url(frame.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    width: 13%;
-    height: auto;
-    margin: auto;
-    float: right;
-}
-
-.frame1:hover, .frame2:hover, .frame3:hover, .frame4:hover, .frame5:hover  {
-    background-image: url(hover.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     width: 13%;
@@ -120,29 +151,26 @@ h3{
     font-weight: 700;
     text-align: center;
     color: #ffffff;
-    margin: 10% 1% 5% 10%;
+   
 }
 
-.icon_box{
-	background-image: url(frame.png);
+
+
+.frame {
+    background-image: url(frame.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
-    width: 100%;
-    height: auto;
-    min-height: 146px;
-    margin: auto;
-    float: right;
+    display: inline-block;
+    position: relative;
+    height: 146px;
+    min-width: 125px;
+    margin: 49px auto 42px;
 }
 
-/*
-.frame1{
-	width: 13%;
-    height: auto;
-    margin: auto;
-    float: right;
-}
-
-.box_text h3{
+.frame:hover{
+	 background-image: url(hover.png);
 
 }
-*/
+
+
+
