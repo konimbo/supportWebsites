@@ -16,9 +16,7 @@
 	display:block;
 	margin: 70px auto 0px;
 }
-
-
-.pos_1,.pos_2,.pos_3,.pos_4,.pos_5{
+.position{
 	height: 350px;
 	margin-left: auto;
 	margin-right: auto;
@@ -27,22 +25,20 @@
 	width: 173px;
 	margin-right: 55px;
 }
-.pos_1_pic > img,.pos_2_pic > img,.pos_3_pic > img,.pos_4_pic > img,.pos_5_pic > img{
+.position img{
 	width: auto;
 	height: auto;
 
 }
-
-.pos_1_pic,.pos_2_pic,.pos_3_pic,.pos_4_pic,.pos_5_pic{
+.pos_pic{
 	background: url(hexagon.png) no-repeat top center;
 	position: relative;
 	height: 147px;
 }
-.pos_1_pic:hover,.pos_2_pic:hover,.pos_3_pic:hover,.pos_4_pic:hover,.pos_5_pic:hover{
+.pos_pic:hover{
 		background: url(ghexagon.png) no-repeat top center;
 
 }
-
 .wrapbox img{
 	margin:53px 33px;
 }
@@ -55,7 +51,7 @@
 	margin-right: auto;
 	height: 100%;
 }
-.pos_1_text,.pos_2_text,.pos_3_text,.pos_4_text,.pos_5_text{
+.pos_text{
 	min-width: 173px;
 	width: 173px;
 	height: auto;
